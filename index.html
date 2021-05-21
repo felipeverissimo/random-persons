@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Random persons</title>
+   
+
+    <!-- import stylesheet -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="icon" type="image/png" href="favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+   
+</head>
+<body>
+    <div id="app" >
+        <div class="loader">
+            <i class="fa fa-2x fa fa-circle-o-notch	fa-spin"></i>
+        </div>
+        <button  class="btn" v-on:dblclick="test.loaderValidation()"  v-on:click="getNextPage(true)">More...</button>
+        <random-persons v-bind:person_list_prop="list"/>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
