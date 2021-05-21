@@ -16,12 +16,12 @@
    
 </head>
 <body>
-
     <div id="app" >
         <div class="loader">
             <i class="fa fa-2x fa fa-circle-o-notch	fa-spin"></i>
         </div>
-        <button  class="btn" v-on:dblclick="test.loaderValidation()"  >More...</button>
+        <button  class="btn" v-on:dblclick="test.loaderValidation()"  v-on:click="getNextPage(true)">More...</button>
+        <random-persons v-bind:person_list_prop="list"/>
     </div>
    
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
