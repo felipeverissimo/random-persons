@@ -88,3 +88,101 @@ h2 {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+@media only screen and (max-width: 736px) {
+  .container {
+    width: 736px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .card {
+    width: 30%;
+    height: auto;
+    margin: 0 5px 15px;
+  }
+
+  .btn {
+    position: fixed;
+    bottom: 4%;
+    right: 4%;
+  }
+
+  .loader {
+    transition: 0.3s cubic-bezier(1, 0.01, 0.29, 1.01);
+    height: 500%;
+  }
+}
+
+@media only screen and (max-width: 429px) {
+  .container {
+    width: 429px;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+    margin: 0 15px 15px;
+  }
+
+  .loader {
+    transition: 0.3s cubic-bezier(1, 0.01, 0.29, 1.01);
+    height: 1000%;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .container {
+    width: 736px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .card {
+    width: 30%;
+    height: auto;
+    margin: 0 5px 15px;
+  }
+
+  .btn {
+    position: fixed;
+    bottom: 4%;
+    right: 4%;
+  }
+
+  .loader {
+    transition: 0.3s cubic-bezier(1, 0.01, 0.29, 1.01);
+    height: 500%;
+  }
+}
+
+@media only screen and (max-width: 429px) {
+  .container {
+    width: 429px;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+    margin: 0 15px 15px;
+  }
+
+  .loader {
+    transition: 0.3s cubic-bezier(1, 0.01, 0.29, 1.01);
+    height: 1000%;
+  }
+}
