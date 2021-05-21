@@ -44,7 +44,7 @@
     O projeto tem um teste unitario feito conforme solicitado pela empresa.
 
     Para realizá-lo você deve abrir o console do navegador pressionando (f12)
-    e dar um click seguido de um click duplo para executar o teste unitario.
+    e dar um click seguido de um click duplo no botão more... para executar o teste unitario.
 
     E ver o resultado no console.
 
@@ -53,7 +53,7 @@
     The project has a unit test done as requested by the company.
 
     To do this you must open the browser console by pressing (f12)
-    and click followed by a double click to perform the unit test.
+    and click followed by a double click in button more... to perform the unit test.
 
     And see the result on the console.
 
