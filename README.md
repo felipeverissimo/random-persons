@@ -8,7 +8,6 @@
 - [Sobre](#sobre)
 - [Instalação](#instalacao)
 - [Como usar](#como-usar)
-  - [Pre Requisitos](#pre-requisitos)
 - [Tests](#testes)
 - [Tecnologias](#tecnologias)
 <!--te-->
@@ -38,7 +37,7 @@
     To use this project you need to access the following link hosted on the git-hubs pages and check the final result.
 
 
-    link:
+    link: [random-persons](https://felipeverissimo.github.io/random-persons/)
 
 # testes
 
