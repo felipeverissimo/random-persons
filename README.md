@@ -37,7 +37,7 @@
     To use this project you need to access the following link hosted on the git-hubs pages and check the final result.
 
 
-    link: [random-persons](https://felipeverissimo.github.io/random-persons/)
+    link: https://felipeverissimo.github.io/random-persons
 
 # testes
 
